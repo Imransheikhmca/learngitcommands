@@ -1,0 +1,5 @@
+1. git config user.name=""
+2. git config user.email=""
+3. git init
+4. git add .
+5. git 
