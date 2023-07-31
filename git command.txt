@@ -1,5 +1,14 @@
 1. git config user.name=""
 2. git config user.email=""
 3. git init
+working directory
 4. git add .
-5. git 
+staging area
+5. git commit -m "msg"
+6. git log - to check local commited logs. 
+7. git show <commit_id> (it will display changes on committed file.)
+8. git remote add origin <url> - to add remote git url to local working directory.
+9. git remote remove origin
+10. git push -u origin master
+11. 
+
