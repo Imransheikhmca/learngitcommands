@@ -1,0 +1,44 @@
+1. to see all the images present in local
+
+-> docker images
+
+2. to find out images in docker hub
+
+-> docker search jenkins
+
+3. to download image from local machine
+
+-> docker pull jenkins
+
+4. to give name to container
+
+-> docker run -it --name imran ubuntu /bin/bash
+
+5. to check service is start or not
+
+-> service docker status
+
+6. to start container
+
+-> docker start imran
+
+7. to go inside container
+
+-> docker attach imran
+
+8. to see all container
+
+-> docker ps -a
+
+9. to see only running containers
+ 
+-> docker ps 
+process status
+
+10. to stop container 
+
+-> docker stop imran
+
+11. to delete container 
+
+-> docker rm imran
