@@ -16,9 +16,37 @@ git log --grep "commit" (it will fetch "commit" keyword from commit list)
 10. git push -u origin master
 11. git ignore - git add .gitignore 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 12. git branch (list of branch)
 13. git checkout <branch_name> (if not exist then it will create new branch and also while pushing it will create new branch in server.)
 14. git 
+>>>>>>> Stashed changes
+=======
+12. git branch (list of branch)
+13. git checkout <branch_name> (if not exist then it will create new branch and also while pushing it will create new branch in server.)
+14. git merge branch <branch_name>
+15. git conflict - when 2 similiar file changes happens.
+to resolve merge coflicts first solve one by one and then commit the changes and push the changes. 
+
+16. git stash
+
+when half of the work is done. then we can use stash. stash is temporary storage to empty the current working directory.
+
+commands
+git stash || git stash save "your msg"
+git stash list
+git stash apply stash@{}   - data will be copied
+git stash pop stash@{} - data will be cut
+git stash clear
+git stash show -p - to view the full diffs
+git stash -p - stash the changes and view the diff
+
+creating a branch from stash
+
+git stash branch <branch_name> stash@{}
+
+
+
 >>>>>>> Stashed changes
 
