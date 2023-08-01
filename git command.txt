@@ -15,14 +15,6 @@ git log --grep "commit" (it will fetch "commit" keyword from commit list)
 9. git remote remove origin
 10. git push -u origin master
 11. git ignore - git add .gitignore 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-12. git branch (list of branch)
-13. git checkout <branch_name> (if not exist then it will create new branch and also while pushing it will create new branch in server.)
-14. git 
->>>>>>> Stashed changes
-=======
 12. git branch (list of branch)
 13. git checkout <branch_name> (if not exist then it will create new branch and also while pushing it will create new branch in server.)
 14. git merge branch <branch_name>
@@ -46,7 +38,35 @@ creating a branch from stash
 
 git stash branch <branch_name> stash@{}
 
+17. git reset
+
+when local workspace changes are added to staging area/ git add .
+and we want to reset the changes then we use git reset command.
+
+command:
+git reset file_name
+git reset .
 
 
->>>>>>> Stashed changes
+to permenantly remove changes or remove changes from staging area as well as local workspace we have to use git reset --hard
+
+git reset --hard
+
+
+18. once commit happens we cant undo. coz of checksum and security.
+local workspace -> staging area -> local repo. 
+once changes are in local repo then we cant do undo.
+
+
+git revert comes to rescue. it helps you revert.
+
+
+19. to remove untracked files.
+
+git clean -n (dry run)
+git clean -f(forcefully)
+
+
+
+
 
