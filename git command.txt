@@ -76,7 +76,12 @@ git tag -a <tagname> -m <message> <commit-id>
 git tag
 
 
-play with git revert
+git show <tag>
+
+git tag -d <tag> - to delete the tag.
+
+
+
 
 
 
