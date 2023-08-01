@@ -76,8 +76,7 @@ git tag -a <tagname> -m <message> <commit-id>
 git tag
 
 
-play not worked.
-
+play with git revert
 
 
 
