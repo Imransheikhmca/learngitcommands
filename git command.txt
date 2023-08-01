@@ -16,7 +16,14 @@ git log --grep "commit" (it will fetch "commit" keyword from commit list)
 10. git push -u origin master
 11. git ignore - git add .gitignore 
 12. git branch (list of branch)
+<<<<<<< Updated upstream
 13. git checkout -b <branch_name> (if not exist then it will create new branch and also while pushing it will create new branch in server.)
 14. git branch -d <branch_name>  - (we can use -D also)
 15. git push --set-upstream <repository> <branchname> 
+=======
+13. git checkout <branch_name> (if not exist then it will create new branch and also while pushing it will create new branch in server.)
+14. git merge branch <branch_name>
+
+
+>>>>>>> Stashed changes
 
