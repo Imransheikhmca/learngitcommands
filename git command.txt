@@ -66,6 +66,19 @@ git revert comes to rescue. it helps you revert.
 git clean -n (dry run)
 git clean -f(forcefully)
 
+20. tag
+
+commands : 
+ to give tag 
+git tag -a <tagname> -m <message> <commit-id>
+
+ to list tag
+git tag
+
+
+play with git revert
+
+
 
 
 
